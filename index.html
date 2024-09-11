@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste Haven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+    <a href="#home" class="logo">Taste Haven</a>
+    <div class="hamburger" id="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <ul class="navbar" id="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#contact">Make Reservation</a></li>
+    </ul>
+</div>
+    </header>
+
+    <section id="home" class="home">
+        <video autoplay muted loop class="bg-video">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="home-text">
+            <h1>Welcome To Taste Haven Restaurant</h1>
+            <p>T.H Restaurant could refer to various dining establishments worldwide</p>
+            <button class="get-started-btn" onclick="scrollToSection('#categories')">Get Started</button>
+        </div>
+    </section>
+<br>
+    <section id="categories" class="categories">
+        <div class="categories-text">
+            <h2>Categories</h2>
+        </div>
+        <br>
+        <div class="categories-box">
+            <div class="categories-img">
+                <img src="burger.jpg" alt="Burger">
+                <h5>Burger</h5>
+                <p>Burgers are often served with sides.</p>
+                <h4>$35.95</h4>
+            </div>
+            <div class="categories-img">
+                <img src="vegetable.jpg" alt="Vegetable">
+                <h5>Vegetable</h5>
+                <p>Vegetables! They're nutritious and delicious.</p>
+                <h4>$45.95</h4>
+            </div>
+            <div class="categories-img">
+                <img src="salmon.jpg" alt="Salmon">
+                <h5>Salmon</h5>
+                <p>If you're referring to a different Salmon.</p>
+                <h4>$50.05</h4>
+            </div>
+            <div class="categories-img">
+                <img src="cookie.jpg" alt="Cookie">
+                <h5>Cookie</h5>
+                <p>Cookies! Sweet treats that bring joy.</p>
+                <h4>$9.99</h4>
+            </div>
+            <div class="categories-img">
+                <img src="chicken.jpg" alt="Chicken">
+                <h5>Grilled Chicken</h5>
+                <p>Grilled Chicken! One of the most popular versatile dishes.</p>
+                <h4>$40.99</h4>
+            </div>
+            <div class="categories-img">
+                <img src="chicken1.jpg" alt="Chicken">
+                <h5>Chicken</h5>
+                <p>Chicken! One of the most popular versatile dishes.</p>
+                <h4>$45.45</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        
+        <div class="contact-box">
+            <img src="contact.jpg" alt="Contact">
+            <br>
+          
+                <div class="contact-text">
+            <h2>Contact Us</h2>
+        </div>
+        
+            <div class="input-box">
+                <div class="contact-input">
+                    <label>First Name</label>
+                    <input type="text" placeholder="Enter First Name" required>
+                </div>
+                <div class="contact-input">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Enter Last Name" required>
+                </div>
+                <div class="contact-input">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter Email" required>
+                </div>
+                <div class="contact-input">
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="Enter Phone Number" required>
+                </div>
+                <div class="contact-input">
+                    <label>Reservation Date</label>
+                    <input type="date" required>
+                </div>
+                <button class="btn">Submit</button>  
+                
+                
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <footer id="footer" class="footer">
+        <div class="footer-box">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#categories">Categories</a>
+                <a href="#contact">Make Reservation</a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="footer-links">
+                <h4>Customer Support</h4> 
+                <a href="#">FAQ</a>
+                <a href="#">Snippy & Returns</a>
+                <a href="#">Order Status</a>
+                <a href="#">Payment Options</a>
+                <a href="#">Contact Support</a>
+            </div>
+            <div class="credit">Created By <span>Olatunde Jeremiah</span> | All Rights Reserved</div>
+        </div> 
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
